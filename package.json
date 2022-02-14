@@ -1,0 +1,30 @@
+{
+  "name": "cockpit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Oytec cockpit for pharma.",
+  "keywords": [
+    "cockpit"
+  ],
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "oracledb": "^5.1.0"
+  },
+  "author": "OYTEC",
+  "license": "pending",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/oracledb": "^5.2.2",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  }
+}
